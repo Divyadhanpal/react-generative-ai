@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap");
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.heading {
+  font-family: Poppins;
+  font-size: 4em;
+}
+
+.grid-container{
+  padding: 5rem;
+}
+.text-area {
+  font-size: 20px;
+  padding: 10px;
+  font-family: Poppins;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+
+}
+
+.action-btn {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.result-text {
+  font-family: Poppins;
+  font-size: 20px;
+  line-height: 2rem;
+}
