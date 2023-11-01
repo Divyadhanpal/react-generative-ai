@@ -1,38 +1,59 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap");
-
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
 }
-
-.heading {
-  font-family: Poppins;
-  font-size: 4em;
+.container{
+    display:flex;
 }
-
-.grid-container{
-  padding: 5rem;
+main{
+    width: 100%;
+    padding: 20px;
 }
-.text-area {
-  font-size: 20px;
-  padding: 10px;
-  font-family: Poppins;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-
+.sidebar{
+    background: rgb(3, 0, 31);
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
 }
-
-.action-btn {
-  padding: 10px;
-  cursor: pointer;
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
 }
-
-.result-text {
-  font-family: Poppins;
-  font-size: 20px;
-  line-height: 2rem;
+.logo{
+    font-size: 30px;
 }
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: lightskyblue;
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+.cs-chat-container .cs-message-input{
+    background: rgb(3, 0, 31) !important;
+    padding: 3rem;
+  }
+  .cs-message-list{
+    background: rgb(3, 0, 31) !important;
+    
+  }
