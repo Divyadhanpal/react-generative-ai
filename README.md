@@ -1,2 +1,5 @@
 # react-generative-ai
-# VITE_Open_AI_Key = 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
+
+Run this project using "npm install" and "npm run dev"(as we are using vite package manager)
+
+we are using google gemini openai api so we need to replace our api key at "Open_AI_Key" to make this project run
